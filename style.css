@@ -66,19 +66,12 @@ body {
 .container p span.cursor.typing {
   animation: none;
 }
-@keyframes blink {
-  0%  { background-color: #ccc; }
-  49% { background-color: #ccc; }
-  50% { background-color: transparent; }
-  99% { background-color: transparent; }
-  100%  { background-color: #ccc; }
-}
 
 .links {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 70vh;
+  height: 60vh;
   width: 100vw;
 }
 #envelope,
@@ -103,6 +96,14 @@ body {
 }
 #github {
   animation-delay: 0.6s;
+}
+
+@keyframes blink {
+  0%  { background-color: #ccc; }
+  49% { background-color: #ccc; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #ccc; }
 }
 
 @keyframes animate {
